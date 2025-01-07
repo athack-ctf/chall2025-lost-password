@@ -1,10 +1,15 @@
-# How to Solve the Challenge?
+# Solution
+Crack the password with a dictionary attack using `rockyou.txt` (hinted at wordlist).
 
-Provide reproducible steps to solve the challenge. This can include:
+## PoC: Using `fcrackzip`
+```
+# Get fcrackzip
+apt update 
+apt install fcrackzip
 
-- Runnable code (e.g., `PoC.py`)
-- A Bash script or a sequence of commented commands
-- Well-explained instructions
-- ...
+# Get rockyou.txt
+wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
-Ensure that all dependencies required to build or run the solution are provided (e.g., `requirements.txt`) or thoroughly documented.
+# Start cracking
+fcrackzip -u -D -p rockyou.txt flag.zip
+```
