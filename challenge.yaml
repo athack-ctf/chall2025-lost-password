@@ -1,0 +1,26 @@
+name: "Lost Password"
+author: "Anis"
+category: Forensics
+description: |
+    Ned once saved a secret flag inside a password-protected zip archive.
+    Now, he's forgotten the password!
+    The only clue he remembers is that it's the same password he used for his MySpace account in 2009.
+    
+value: 50
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{j000n_c0nGr44tzzz_dis_iz_ur_fl4ggg}"
+    data: "case_insensitive"
+
+tags:
+
+files:
+    - ./offline-artifacts/flag.zip
+
+
+state: visible
+
+version: "0.1"
