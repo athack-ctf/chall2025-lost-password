@@ -1,1 +1,0 @@
-Ned once saved a secret flag inside a password-protected zip archive. Now, he’s forgotten the password! The only clue he remembers is that it’s the same password he used for his MySpace account in 2009.
